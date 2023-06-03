@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Itim';
+    src: url(Itim-Regular.ttf);
+}
+
+body {
+    background-image: url(Log\ In.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: black;
+    
+}
+
+.box1 {
+    height: 667px;
+    width: 507px;
+
+}
+.title {
+    font-family: 'Itim';
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    color: white;
+    text-align: center;
+}
+.label {
+    font-family: 'Itim';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: white;
+}
+::placeholder {
+    font-family: 'Itim';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: white;
+}
+.forgot {
+    font-family: 'Itim';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(26, 127, 193, 1);
+    text-decoration: none;
+}
+.line {
+    width: 164px;
+    border: 2px solid white;
+    display: inline-block;
+    margin-bottom: -1px;
+}
+.or {
+    font-family: 'Itim';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: white;
+}
+@media only screen and (max-width: 768px) {
+    .line {
+        width: 140px !important;
+    }
+}
+.no-account {
+    font-family: 'Itim';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+}
